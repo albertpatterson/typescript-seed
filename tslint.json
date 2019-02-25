@@ -1,0 +1,13 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-no-unused-expression-chai"
+    ],
+    "jsRules": {},
+    "rules": {
+        // recommended quotemark rule conflicts with clang format
+        "quotemark": false
+    },
+    "rulesDirectory": []
+}

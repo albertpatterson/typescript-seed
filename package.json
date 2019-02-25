@@ -1,0 +1,46 @@
+{
+  "name": "typescript-seed",
+  "version": "1.0.0",
+  "description": "a seed project for a typescript projects",
+  "main": "main.js",
+  "scripts": {
+    "test": "gulp test",
+    "start": "ts-node ./src/main.ts",
+    "watch": "gulp watch",
+    "build": "gulp build",
+    "build-prod": "gulp build-prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertpatterson/typescript-seed.git"
+  },
+  "keywords": [
+    "typescript",
+    "seed"
+  ],
+  "author": "Albert Patterson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/albertpatterson/typescript-seed/issues"
+  },
+  "homepage": "https://github.com/albertpatterson/typescript-seed#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-mocha": "^6.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-tslint": "^8.1.4",
+    "gulp-watch": "^5.0.1",
+    "ts-node": "^8.0.2",
+    "tsify": "^4.0.1",
+    "tslint": "^5.12.1",
+    "tslint-no-unused-expression-chai": "^0.1.4",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "gulp-typescript": "^5.0.0"
+  }
+}
